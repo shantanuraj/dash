@@ -1,0 +1,27 @@
+{
+  "name": "dash",
+  "version": "0.0.0",
+  "description": "dashboard for notes, reminders and analytics",
+  "scripts": {
+    "start": "go run main.go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanuraj/dash.git"
+  },
+  "keywords": [
+    "dash"
+  ],
+  "author": "Shantanu Raj <s@sraj.me>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/shantanuraj/dash/issues"
+  },
+  "homepage": "https://github.com/shantanuraj/dash#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2"
+  }
+}

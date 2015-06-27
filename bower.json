@@ -1,0 +1,26 @@
+{
+  "name": "dash",
+  "version": "0.0.0",
+  "authors": [
+    "Shantanu Raj <s@sraj.me>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "dash"
+  ],
+  "license": "Apache License 2.0",
+  "homepage": "https://shantanuraj.github.io/dash",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}
