@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "description": "dashboard for notes, reminders and analytics",
   "scripts": {
-    "start": "go run main.go",
-    "prepare": "watchify public/scripts/main.js -t babelify --outfile public/build/main.js"
+    "start": "go run main.go"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,7 @@
     "reflux": "^0.2.8"
   },
   "devDependencies": {
-    "babelify": "^6.1.2"
+    "babel-loader": "^5.2.2",
+    "webpack": "^1.10.0"
   }
 }
