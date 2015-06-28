@@ -16,6 +16,7 @@ var styles = {
 		backgroundColor: '#065150',
 		color: 'white',
 		textAlign: 'center',
+		height: '88%',
 	},
 };
 
